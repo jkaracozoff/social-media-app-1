@@ -92,7 +92,7 @@ const Navbar = () => {
             color={theme.palette.primary.main}
           >
             {/* <Link to="/" color="inherit"> */}
-              Amygdala
+              Amygdala Health
             {/* </Link> */}
           </Typography>
         </HorizontalStack>
