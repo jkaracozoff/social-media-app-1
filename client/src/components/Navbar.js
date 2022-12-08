@@ -14,6 +14,7 @@ import "react-icons/ai";
 import "react-icons/ri";
 import {
   AiFillFileText,
+  AiOutlineFire,
   AiFillHome,
   AiFillMessage,
   AiOutlineSearch,
@@ -79,7 +80,7 @@ const Navbar = () => {
         spacing={!mobile ? 2 : 0}
       >
         <HorizontalStack>
-          <AiFillFileText
+          <AiOutlineFire
             size={33}
             color={theme.palette.primary.main}
             onClick={() => navigate("/")}
@@ -91,7 +92,7 @@ const Navbar = () => {
             color={theme.palette.primary.main}
           >
             {/* <Link to="/" color="inherit"> */}
-              PostIt
+              Amygdala
             {/* </Link> */}
           </Typography>
         </HorizontalStack>
