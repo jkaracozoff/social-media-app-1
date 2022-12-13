@@ -25,7 +25,7 @@ io.use(authSocket);
 io.on("connection", (socket) => socketServer(socket));
 
 mongoose.connect(
-  process.env.MONGO_URI,
+  "mongodb+srv://admin:sf4Ji5M5YwBmbLBm@cluster0.voziff1.mongodb.net/?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true },
   () => {
     console.log("MongoDB connected");
